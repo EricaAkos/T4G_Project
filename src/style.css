@@ -89,3 +89,63 @@ p{
     background-color: rgb(201, 226, 249);
     margin-bottom: 1%;
 }
+.appointmentform{
+    background-color: rgb(201, 226, 249);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width:100%;
+    margin-top: 1%;
+}
+.appointmentform h3{
+    margin-bottom: 20px;
+}
+.appointmentform label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    cursor: pointer;
+}
+.appointmentform input,
+.appointmentform textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.appointmentform input:focus,
+.appointmentform textarea:focus{
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.appointmentform button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.appointmentform button:hover{
+    background-color: #db41a3;
+}
+.aboutpara{
+    background-image: url(../images/SALON\ HAIR\ WASH.jpg); */
+    /* /* opacity: 40%; */
+    margin-top: 20px;
+    line-height: 250%;
+    /* color: black; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aboutpara p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
