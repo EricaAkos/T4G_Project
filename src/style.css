@@ -252,8 +252,54 @@ p{
 }
 .formcontainer{
     display: flex;
+    flex-direction: column;
     gap: 100px;
     line-height: 50px;
+    justify-content: center;
+    background-image: url(../images/pink\ salon.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form2{
+    background-color: rgb(201, 226, 249);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: o 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.form2 h2{
+    margin-bottom: 20px;
+    color: #670a0a;
+}
+.form2 label{
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+.form2 input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form2 button {
+    background-color: aqua;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.form2 button:hover{
+    background-color: #007bff;
 }
 .formbox{
     background-color: rgb(201, 226, 249);
@@ -263,6 +309,8 @@ p{
     max-width: 300px;
     width: 100%;
     text-align: center;
+    margin-top: 15px;
+    
 }
 .formbox h2{
     margin-bottom: 20px;
