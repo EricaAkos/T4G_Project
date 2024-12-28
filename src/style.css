@@ -360,3 +360,28 @@ p{
     padding: 0.6em;
     padding-top: 0.1em;
 }
+
+button{
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: #fff; 
+    background-color: #007bff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    /* margin: 10px; */
+}
+button:hover { 
+    background-color: #013d7e; 
+}
+.hidden { 
+    display: none;
+}
+#para { 
+    margin-top: 20px;
+}
+#view { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}

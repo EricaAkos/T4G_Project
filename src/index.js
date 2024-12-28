@@ -29,3 +29,15 @@ homeimg1.forEach(homeimg1 => {
 const home2 = document.getElementById('home2'); 
 home2.style.width = '250px'; 
 home2.style.height = 'auto';
+
+const viewparaButton = document.getElementById('open'); 
+const closeparaButton = document.getElementById('close'); 
+const paraContainer = document.getElementById('para');
+
+viewparaButton.addEventListener('click', function() { 
+    paraContainer.classList.remove('hidden'); 
+});
+
+closeparaButton.addEventListener('click', function() { 
+    paraContainer.classList.add('hidden'); 
+});
