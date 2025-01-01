@@ -41,3 +41,59 @@ viewparaButton.addEventListener('click', function() {
 closeparaButton.addEventListener('click', function() { 
     paraContainer.classList.add('hidden'); 
 });
+
+const viewpara1Button = document.getElementById('open1'); 
+const closepara1Button = document.getElementById('close1'); 
+const para1Container = document.getElementById('para1');
+
+viewpara1Button.addEventListener('click', function() { 
+    para1Container.classList.remove('hidden'); 
+});
+
+closepara1Button.addEventListener('click', function() { 
+    para1Container.classList.add('hidden'); 
+});
+
+const viewpara2Button = document.getElementById('open2'); 
+const closepara2Button = document.getElementById('close2'); 
+const para2Container = document.getElementById('para2');
+
+viewpara2Button.addEventListener('click', function() { 
+    para2Container.classList.remove('hidden'); 
+});
+
+closepara2Button.addEventListener('click', function() { 
+    para2Container.classList.add('hidden'); 
+});
+
+
+const viewpara3Button = document.getElementById('open3'); 
+const closepara3Button = document.getElementById('close3'); 
+const para3Container = document.getElementById('para3');
+
+viewpara3Button.addEventListener('click', function() { 
+    para3Container.classList.remove('hidden'); 
+});
+
+closepara3Button.addEventListener('click', function() { 
+    para3Container.classList.add('hidden'); 
+});
+
+const viewpara4Button = document.getElementById('open4'); 
+const closepara4Button = document.getElementById('close4'); 
+const para4Container = document.getElementById('para4');
+
+viewpara4Button.addEventListener('click', function() { 
+    para4Container.classList.remove('hidden'); 
+});
+
+closepara4Button.addEventListener('click', function() { 
+    para4Container.classList.add('hidden'); 
+});
+
+const toggleButton = document.getElementById('theme-toggle');
+const body = document.body;
+
+toggleButton.addEventListener('click', function() {
+    body.classList.toggle('dark-mode');
+});
